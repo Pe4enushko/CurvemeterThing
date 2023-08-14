@@ -1,0 +1,541 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.23f1 (213b516bf396) revision 2177873'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'ru' Physical Memory: 16085 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.23f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Curvemeter/Curvemeter
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49755
+Successfully changed project path to: C:/Curvemeter/Curvemeter
+C:/Curvemeter/Curvemeter
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [12616] Host "[IP] 192.168.10.40 [Port] 0 [Flags] 2 [Guid] 343411918 [EditorId] 343411918 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-NJE71V2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [12616] Host "[IP] 192.168.10.40 [Port] 0 [Flags] 2 [Guid] 343411918 [EditorId] 343411918 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-NJE71V2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 297.67 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 22.35 ms.
+Initialize engine version: 2021.3.23f1 (213b516bf396)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Curvemeter/Curvemeter/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:   NVIDIA
+    VRAM:     6009 MB
+    Driver:   31.0.15.3168
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56976
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005653 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 480 ms
+Refreshing native plugins compatible for Editor in 135.91 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.104 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1105ms)
+		BeginReloadAssembly (77ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (949ms)
+			LoadAssemblies (74ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (97ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (779ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (537ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (136ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (70ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.010743 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Curvemeter\Curvemeter\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Curvemeter\Curvemeter\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 130.15 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.29 ms.
+Package Manager log level set to [2]
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00041] in C:\Curvemeter\Curvemeter\Library\PackageCache\com.unity.xr.oculus@3.3.0\Runtime\OculusLoader.cs:282 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Curvemeter\Curvemeter\Library\PackageCache\com.unity.xr.oculus@3.3.0\Runtime\OculusLoader.cs:267 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <4a4789deb75f446a81a24a1a00bdd3f9>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <4a4789deb75f446a81a24a1a00bdd3f9>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <4a4789deb75f446a81a24a1a00bdd3f9>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <9959c9185b684a4d9d56448296fb9048>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.325 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1326ms)
+		BeginReloadAssembly (95ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (1142ms)
+			LoadAssemblies (95ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (273ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (76ms)
+			SetupLoadedEditorAssemblies (658ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (131ms)
+				BeforeProcessingInitializeOnLoad (127ms)
+				ProcessInitializeOnLoadAttributes (287ms)
+				ProcessInitializeOnLoadMethodAttributes (93ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 2.44 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.16 ms.
+Unloading 6506 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 79 unused Assets / (0.8 MB). Loaded Objects now: 6968.
+Memory consumption went from 269.1 MB to 268.3 MB.
+Total: 3.620200 ms (FindLiveObjects: 0.452500 ms CreateObjectMapping: 0.256100 ms MarkObjects: 2.581300 ms  DeleteObjects: 0.329400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 909088.498247 seconds.
+  path: Assets/Assembly/Scripts/Include
+  artifactKey: Guid(e25d39747cae5fe4fb761ceebb50b59c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assembly/Scripts/Include using Guid(e25d39747cae5fe4fb761ceebb50b59c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57f10619c074332b6d907e7feb166fbf') in 0.015275 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.359382 seconds.
+  path: Assets/Tyrs/Scripts
+  artifactKey: Guid(24cbd86d126ed434dbd2bc06b1b8484f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tyrs/Scripts using Guid(24cbd86d126ed434dbd2bc06b1b8484f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adde6bbdc5aee130b218efdb1f30631f') in 0.006676 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.234792 seconds.
+  path: Assets/Tyrs/Scripts/BootstrapTyrs.cs
+  artifactKey: Guid(8ca2429f02d6f9740b78a9dd62e4cdc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tyrs/Scripts/BootstrapTyrs.cs using Guid(8ca2429f02d6f9740b78a9dd62e4cdc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46f1ca7c8d16ba7d0e4c34088b69e24e') in 0.014243 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 91.292976 seconds.
+  path: Assets/Tyrs/Models/Circle.fbx
+  artifactKey: Guid(b16a7a995db902b4cbdb8c5a1904c243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tyrs/Models/Circle.fbx using Guid(b16a7a995db902b4cbdb8c5a1904c243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '590346baa7812e450a5f06dfdef3ca04') in 0.309691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 43.694266 seconds.
+  path: Assets/Assets/Model/TOOL/Kurvimeter/Learning/StateMachineTyrs.cs
+  artifactKey: Guid(f54bb59276545164aa3be89f56da7fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Model/TOOL/Kurvimeter/Learning/StateMachineTyrs.cs using Guid(f54bb59276545164aa3be89f56da7fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36e9db99235b374b849692d7bf032412') in 0.006260 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.283561 seconds.
+  path: Assets/Assets/Model/TOOL/Kurvimeter/Learning/StateMachineCurvemeter.cs
+  artifactKey: Guid(f54bb59276545164aa3be89f56da7fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Model/TOOL/Kurvimeter/Learning/StateMachineCurvemeter.cs using Guid(f54bb59276545164aa3be89f56da7fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffdbe400efe9eb1121622d30d8aa4e25') in 0.006259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.776311 seconds.
+  path: Assets/Assets/Model/TOOL/Kurvimeter/Learning/TyrsEvents.cs
+  artifactKey: Guid(c698a3c551c9da845801aa354890dae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Model/TOOL/Kurvimeter/Learning/TyrsEvents.cs using Guid(c698a3c551c9da845801aa354890dae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51be45c2dd3b0c7d519b02f1b3418f02') in 0.006217 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.210361 seconds.
+  path: Assets/Assets/Model/TOOL/Kurvimeter/Learning/CurvemeterEvents.cs
+  artifactKey: Guid(c698a3c551c9da845801aa354890dae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Model/TOOL/Kurvimeter/Learning/CurvemeterEvents.cs using Guid(c698a3c551c9da845801aa354890dae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c0aaca04d634d1e3b5a4ff55118f1bc') in 0.006130 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.272314 seconds.
+  path: Assets/Assets/Model/TOOL/Kurvimeter/Learning/Prefabs
+  artifactKey: Guid(3820037b236d5eb4a8aa28204e67a8d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Model/TOOL/Kurvimeter/Learning/Prefabs using Guid(3820037b236d5eb4a8aa28204e67a8d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d3cb4014ee24e249815169885af9f0b') in 0.006376 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.031126 seconds.
+  path: Assets/Assets/Model/TOOL/Kurvimeter/Learning/Prefabs/Learning.prefab
+  artifactKey: Guid(3050a182904b602458747616edaab0b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Model/TOOL/Kurvimeter/Learning/Prefabs/Learning.prefab using Guid(3050a182904b602458747616edaab0b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd69404000de870ad263f176ed5c48855') in 0.008265 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 307.138817 seconds.
+  path: Assets/Assets/Model/TOOL/Kurvimeter/Learning/StateMachineCurvemeter.cs
+  artifactKey: Guid(f54bb59276545164aa3be89f56da7fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Model/TOOL/Kurvimeter/Learning/StateMachineCurvemeter.cs using Guid(f54bb59276545164aa3be89f56da7fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1590710462c3c281cbe86a050b7c07c5') in 0.001998 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 47.795617 seconds.
+  path: Assets/Assets/Model/TOOL/Kurvimeter/Learning/StateMachineCurvemeter.cs
+  artifactKey: Guid(f54bb59276545164aa3be89f56da7fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Model/TOOL/Kurvimeter/Learning/StateMachineCurvemeter.cs using Guid(f54bb59276545164aa3be89f56da7fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69604c25d3bea0226af9fc46c204cda8') in 0.001872 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11412.601589 seconds.
+  path: Assets/Assets/Model/TOOL/Kurvimeter/Materials/DisplayArrow.mat
+  artifactKey: Guid(4251da5ec66c96a4f9f4610516e04363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Model/TOOL/Kurvimeter/Materials/DisplayArrow.mat using Guid(4251da5ec66c96a4f9f4610516e04363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0622bff6e856fd9afc7e8b17e6b28c0') in 0.084488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.535582 seconds.
+  path: Assets/Assets/Model/TOOL/Kurvimeter/Prefabs/CurvemeterSetup.prefab
+  artifactKey: Guid(f75d6fe4999324945b2a7133f2a93d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Model/TOOL/Kurvimeter/Prefabs/CurvemeterSetup.prefab using Guid(f75d6fe4999324945b2a7133f2a93d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d15ccd1dfde77831a9b56bf7a35ce20') in 0.124707 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 38.467385 seconds.
+  path: Assets/Assets/Model/TOOL/Kurvimeter/Learning
+  artifactKey: Guid(5e512b3fc135824439be0faf202e7e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Model/TOOL/Kurvimeter/Learning using Guid(5e512b3fc135824439be0faf202e7e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dafd8b2847ac90e12df94315c225b00') in 0.006906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.544647 seconds.
+  path: Assets/Assets/Model/TOOL/Kurvimeter/Learning/NewBehaviourScript.cs
+  artifactKey: Guid(ed3718fc7ab4ffb4f92514feba065c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Model/TOOL/Kurvimeter/Learning/NewBehaviourScript.cs using Guid(ed3718fc7ab4ffb4f92514feba065c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e68833e289e56d12ad09e956206b745') in 0.006904 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4218.528038 seconds.
+  path: Assets/Assets/Model/TOOL/Kurvimeter/Learning/Prefabs/Learning.prefab
+  artifactKey: Guid(3050a182904b602458747616edaab0b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Model/TOOL/Kurvimeter/Learning/Prefabs/Learning.prefab using Guid(3050a182904b602458747616edaab0b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d14d5acd60437d23fd1b931e0a38d6d') in 0.009973 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.536694 seconds.
+  path: Assets/Tyrs/Learning/TyrsEvents.cs
+  artifactKey: Guid(29682907d71ea1047bf3b5d2392fba46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tyrs/Learning/TyrsEvents.cs using Guid(29682907d71ea1047bf3b5d2392fba46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09f02891488394345119ed3135a1d1dc') in 0.007413 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.942580 seconds.
+  path: Assets/Assets/Model/TOOL/Kurvimeter/Learning/TyrsEvents.cs
+  artifactKey: Guid(8fbc0d74e1a8d3f4f8f48efe59656af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Model/TOOL/Kurvimeter/Learning/TyrsEvents.cs using Guid(8fbc0d74e1a8d3f4f8f48efe59656af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b26d3262b1d801184a32895d2e61ee3') in 0.005948 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 64.184210 seconds.
+  path: Assets/Assets/Model/TOOL/Kurvimeter/Learning/TyrsEvents.cs
+  artifactKey: Guid(8fbc0d74e1a8d3f4f8f48efe59656af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Model/TOOL/Kurvimeter/Learning/TyrsEvents.cs using Guid(8fbc0d74e1a8d3f4f8f48efe59656af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2da65dc0fd07cbd49899007aec9a061c') in 0.680535 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.542556 seconds.
+  path: Assets/Assets/Model/TOOL/Kurvimeter/Learning/TyrsEvents.cs
+  artifactKey: Guid(8fbc0d74e1a8d3f4f8f48efe59656af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Model/TOOL/Kurvimeter/Learning/TyrsEvents.cs using Guid(8fbc0d74e1a8d3f4f8f48efe59656af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2da65dc0fd07cbd49899007aec9a061c') in 0.560336 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 54.478301 seconds.
+  path: Assets/Assets/Model/TOOL/Kurvimeter/Learning/CurvemeterEvents.cs
+  artifactKey: Guid(c698a3c551c9da845801aa354890dae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Model/TOOL/Kurvimeter/Learning/CurvemeterEvents.cs using Guid(c698a3c551c9da845801aa354890dae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17db8619fcea00918d809896771da93a') in 0.006725 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.494344 seconds.
+  path: Assets/Assets/Model/TOOL/Kurvimeter/Learning/StateMachineCurvemeter.cs
+  artifactKey: Guid(f54bb59276545164aa3be89f56da7fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Model/TOOL/Kurvimeter/Learning/StateMachineCurvemeter.cs using Guid(f54bb59276545164aa3be89f56da7fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cec8e7c73b7a6b7b3981b12516efb4dc') in 0.008193 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 38.889291 seconds.
+  path: Assets/Assets/Model/TOOL/Kurvimeter/Learning/CurvemeterEvents.cs
+  artifactKey: Guid(c698a3c551c9da845801aa354890dae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Model/TOOL/Kurvimeter/Learning/CurvemeterEvents.cs using Guid(c698a3c551c9da845801aa354890dae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '582422b19f6038b699f1a5aed5fc2d3a') in 0.034340 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.359629 seconds.
+  path: Assets/Assets/Model/TOOL/Kurvimeter/Learning/StateMachineCurvemeter.cs
+  artifactKey: Guid(f54bb59276545164aa3be89f56da7fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Model/TOOL/Kurvimeter/Learning/StateMachineCurvemeter.cs using Guid(f54bb59276545164aa3be89f56da7fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1511d3a68cb4329f9b8efceb0de7b595') in 0.002312 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011732 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Curvemeter\Curvemeter\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Curvemeter\Curvemeter\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.52 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.15 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00041] in C:\Curvemeter\Curvemeter\Library\PackageCache\com.unity.xr.oculus@3.3.0\Runtime\OculusLoader.cs:282 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Curvemeter\Curvemeter\Library\PackageCache\com.unity.xr.oculus@3.3.0\Runtime\OculusLoader.cs:267 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <4a4789deb75f446a81a24a1a00bdd3f9>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <4a4789deb75f446a81a24a1a00bdd3f9>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <4a4789deb75f446a81a24a1a00bdd3f9>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <9959c9185b684a4d9d56448296fb9048>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.122 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2124ms)
+		BeginReloadAssembly (429ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (37ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (166ms)
+		EndReloadAssembly (1603ms)
+			LoadAssemblies (133ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (375ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (702ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (30ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (148ms)
+				ProcessInitializeOnLoadAttributes (393ms)
+				ProcessInitializeOnLoadMethodAttributes (119ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (30ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 37.16 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.18 ms.
+Unloading 6335 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 70 unused Assets / (0.8 MB). Loaded Objects now: 7070.
+Memory consumption went from 265.6 MB to 264.9 MB.
+Total: 19.863500 ms (FindLiveObjects: 0.707000 ms CreateObjectMapping: 1.033700 ms MarkObjects: 16.757100 ms  DeleteObjects: 1.362800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 235.404576 seconds.
+  path: Assets/Assembly/Prefabs/Assembly.prefab
+  artifactKey: Guid(2f276aa0249021240a6f787457c6b341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assembly/Prefabs/Assembly.prefab using Guid(2f276aa0249021240a6f787457c6b341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4335941988f011d0e0b4e62fb53dca17') in 0.019857 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011799 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Curvemeter\Curvemeter\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Curvemeter\Curvemeter\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 4.20 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.23 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00041] in C:\Curvemeter\Curvemeter\Library\PackageCache\com.unity.xr.oculus@3.3.0\Runtime\OculusLoader.cs:282 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Curvemeter\Curvemeter\Library\PackageCache\com.unity.xr.oculus@3.3.0\Runtime\OculusLoader.cs:267 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <4a4789deb75f446a81a24a1a00bdd3f9>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <4a4789deb75f446a81a24a1a00bdd3f9>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <4a4789deb75f446a81a24a1a00bdd3f9>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <9959c9185b684a4d9d56448296fb9048>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.881 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3889ms)
+		BeginReloadAssembly (2089ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (172ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (1189ms)
+		EndReloadAssembly (1672ms)
+			LoadAssemblies (288ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (503ms)
+			ReleaseScriptCaches (7ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (627ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (24ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (90ms)
+				ProcessInitializeOnLoadAttributes (312ms)
+				ProcessInitializeOnLoadMethodAttributes (186ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (27ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 16.67 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 6335 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 69 unused Assets / (0.8 MB). Loaded Objects now: 7074.
+Memory consumption went from 265.6 MB to 264.8 MB.
+Total: 13.642600 ms (FindLiveObjects: 0.435100 ms CreateObjectMapping: 0.224600 ms MarkObjects: 12.234300 ms  DeleteObjects: 0.747200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3685.080571 seconds.
+  path: Assets/Assembly/Content/Sounds/Assembly/0. Приступить.mp3
+  artifactKey: Guid(2891e5f30c1ec8f4db6426b3fd9ee4c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assembly/Content/Sounds/Assembly/0. Приступить.mp3 using Guid(2891e5f30c1ec8f4db6426b3fd9ee4c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8638b951c09cdbd21999f8aba02f6977') in 0.442923 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Tyrs/Learning/Audio/Озвучка/1.Начало-Предохранитель.mp3
+  artifactKey: Guid(47010db69cb383341bcdd83092228e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tyrs/Learning/Audio/Озвучка/1.Начало-Предохранитель.mp3 using Guid(47010db69cb383341bcdd83092228e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac1738fe71590abbd5a6f45bf725e32a') in 0.024818 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Tyrs/Learning/Audio/Озвучка/5. Прекратить огонь.mp3
+  artifactKey: Guid(d60465cfbca1f0241984805740fdc833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tyrs/Learning/Audio/Озвучка/5. Прекратить огонь.mp3 using Guid(d60465cfbca1f0241984805740fdc833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07a966b1d6b503b2281206a0042b4689') in 0.030556 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Tyrs/Learning/Audio/Озвучка/3. Мушка.mp3
+  artifactKey: Guid(c108cabbf7a041d43ac5805d8fcfe3d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tyrs/Learning/Audio/Озвучка/3. Мушка.mp3 using Guid(c108cabbf7a041d43ac5805d8fcfe3d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f22f9ec214bfffb16f21455a38735f63') in 0.020972 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Tyrs/Learning/Audio/Озвучка/6. Отсоеденить магазин_предохранитель.mp3
+  artifactKey: Guid(0f026299bc8a37a449e4e22b861061d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tyrs/Learning/Audio/Озвучка/6. Отсоеденить магазин_предохранитель.mp3 using Guid(0f026299bc8a37a449e4e22b861061d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d12e014bbcd5241a5758b3bf4df15df') in 0.017754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Assembly/Content/Sounds/Assembly/5. Снять затвор.mp3
+  artifactKey: Guid(8e0f609e9942f0d47916abd976da33c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assembly/Content/Sounds/Assembly/5. Снять затвор.mp3 using Guid(8e0f609e9942f0d47916abd976da33c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57bd91ab6daa8b9e09a67ef22692bb1b') in 0.021311 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Assembly/Content/Sounds/Assembly/6. Затвор в раму.mp3
+  artifactKey: Guid(6cc362d6c60fb0b4b80885452b69652f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assembly/Content/Sounds/Assembly/6. Затвор в раму.mp3 using Guid(6cc362d6c60fb0b4b80885452b69652f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f02fa5987066419ce5ea21661b22d60') in 0.018838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Assembly/Content/Sounds/Assembly/4. Снять раму.mp3
+  artifactKey: Guid(4ec8b8fb446a9674882a5296e5d9ca59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assembly/Content/Sounds/Assembly/4. Снять раму.mp3 using Guid(4ec8b8fb446a9674882a5296e5d9ca59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa14aaf750a472a0dfb7027fb859dd10') in 0.028770 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tyrs/Learning/Audio/Озвучка/2. Затвор.mp3
+  artifactKey: Guid(cec01633efba7c341bdf3c87d2a36afe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tyrs/Learning/Audio/Озвучка/2. Затвор.mp3 using Guid(cec01633efba7c341bdf3c87d2a36afe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4666c1ce2ec4838e1eb64c4b38b876da') in 0.021457 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
